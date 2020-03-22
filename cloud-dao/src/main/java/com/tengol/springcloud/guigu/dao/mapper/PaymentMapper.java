@@ -1,6 +1,6 @@
 package com.tengol.springcloud.guigu.dao.mapper;
 
-import com.tengol.springcloud.guigu.entity.Payment;
+import com.tengol.springcloud.guigu.dao.entity.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

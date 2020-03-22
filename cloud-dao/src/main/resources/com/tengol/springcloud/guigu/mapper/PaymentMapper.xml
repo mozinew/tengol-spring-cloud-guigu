@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.tengol.springcloud.guigu.dao.mapper.PaymentMapper">
-    <resultMap id="BaseResultMap" type="com.tengol.springcloud.guigu.entity.Payment">
+    <resultMap id="BaseResultMap" type="com.tengol.springcloud.guigu.dao.entity.Payment">
         <id column="id" jdbcType="INTEGER" property="id" />
         <result column="serial" jdbcType="VARCHAR" property="serial"/>
     </resultMap>
@@ -11,7 +11,7 @@
         id,serial
     </sql>
 
-    <insert id="insert" parameterType="com.tengol.springcloud.guigu.entity.Payment"
+    <insert id="insert" parameterType="com.tengol.springcloud.guigu.dao.entity.Payment"
             useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial) values (#{serial,jdbcType=VARCHAR})
     </insert>

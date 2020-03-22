@@ -1,6 +1,6 @@
 package com.tengol.springcloud.guigu.service;
 
-import com.tengol.springcloud.guigu.entity.Payment;
+import com.tengol.springcloud.guigu.dao.entity.Payment;
 
 /**
  * PaymentService

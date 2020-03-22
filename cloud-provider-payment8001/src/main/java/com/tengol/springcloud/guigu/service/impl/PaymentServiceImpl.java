@@ -1,6 +1,6 @@
 package com.tengol.springcloud.guigu.service.impl;
 
-import com.tengol.springcloud.guigu.entity.Payment;
+import com.tengol.springcloud.guigu.dao.entity.Payment;
 import com.tengol.springcloud.guigu.dao.mapper.PaymentMapper;
 import com.tengol.springcloud.guigu.service.PaymentService;
 import org.springframework.stereotype.Service;

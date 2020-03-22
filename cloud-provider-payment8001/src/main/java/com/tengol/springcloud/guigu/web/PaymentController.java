@@ -1,7 +1,7 @@
 package com.tengol.springcloud.guigu.web;
 
-import com.tengol.springcloud.guigu.common.RestResult;
-import com.tengol.springcloud.guigu.entity.Payment;
+import com.tengol.springcloud.guigu.commons.common.RestResult;
+import com.tengol.springcloud.guigu.dao.entity.Payment;
 import com.tengol.springcloud.guigu.service.PaymentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +22,7 @@ public class PaymentController {
     }
 
     @PostMapping(value = "/", name = "新增记录")
-    public ResponseEntity<RestResult> save(Payment payment) {
+    public ResponseEntity<RestResult> save(@RequestBody Payment payment) {
         int count = paymentService.save(payment);
         if (count > 0) {
             return ResponseEntity.ok(RestResult.success());

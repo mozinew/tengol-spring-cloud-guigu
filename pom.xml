@@ -12,6 +12,9 @@
     <!-- 子模块 -->
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-commons</module>
+        <module>cloud-dao</module>
     </modules>
 
 

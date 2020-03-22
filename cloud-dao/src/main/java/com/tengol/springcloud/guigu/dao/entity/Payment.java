@@ -1,4 +1,4 @@
-package com.tengol.springcloud.guigu.entity;
+package com.tengol.springcloud.guigu.dao.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,0 +1,8 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: order80
+  jackson:
+    default-property-inclusion: non_null

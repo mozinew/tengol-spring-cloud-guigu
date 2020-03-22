@@ -1,4 +1,4 @@
-package com.tengol.springcloud.guigu.common;
+package com.tengol.springcloud.guigu.commons.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
